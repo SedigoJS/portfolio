@@ -60,7 +60,7 @@ const WORK = [
     description:
       "An all-in-one learning platform for admins, teachers, and students with course management, assignments, and quizzes.",
     tags: ["Next.js", "Education Platform", "Full Stack"],
-    href: "https://lms-cyan-mu.vercel.app/",
+    href: "https://cwd-lms.vercel.app/",
   },
   {
     index: "03",
@@ -78,7 +78,7 @@ const WORK = [
     description:
       "A spin-wheel web app for random selection used in giveaways, decisions, and interactive activities.",
     tags: ["JavaScript", "UI Interaction", "Web App"],
-    href: "https://randomizer-lovat.vercel.app/",
+    href: "https://randomizer-cwd.vercel.app/",
   },
   {
     index: "05",
@@ -87,7 +87,7 @@ const WORK = [
     description:
       "A weather app providing real-time forecasts and location-based weather data via API integration.",
     tags: ["API", "Weather App", "React"],
-    href: "https://cloudcast-five.vercel.app/",
+    href: "https://cloudcast-sy.vercel.app/",
   },
 ];
 

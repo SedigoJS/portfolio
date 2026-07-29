@@ -78,7 +78,7 @@ const WORK = [
     title: "SurfxBini",
     description:
       "A CMS platform for user submissions with admin validation and content moderation system.",
-    tags: ["CMS", "Admin Panel", "Web Platform", "User Submissions", "Full Stack"],
+    tags: ["CMS", "Admin Panel", "User Submissions", "Full Stack"],
     href: "https://bini-con.vercel.app/",
   },
   {

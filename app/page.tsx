@@ -40,7 +40,7 @@ const PROFILE = {
 const WORK = [
   {
     index: "01",
-    year: "2025",
+    year: "2026",
     title: "ALAW Projects",
     description:
       "Developed web apps and automation tools for document processing, legal workflows, PDF extraction, and Excel reporting to improve operational efficiency.",
@@ -50,43 +50,53 @@ const WORK = [
       { label: "ALAW iMail", href: "https://alawimail.vercel.app/" },
       { label: "ALAW FDL", href: "https://alaw-fdl.vercel.app/" },
       { label: "FDL Calc", href: "https://fdlcalc.vercel.app/" },
-      { label: "ALAW Campaign", href: "https://alawcampaign.vercel.app/" }
+      { label: "ALAW Campaign", href: "https://alawcampaign.vercel.app/" },
+      { label: "ALAW USDA", href: "https://alawusda.vercel.app/" },
     ],
   },
   {
     index: "02",
-    year: "2024",
-    title: "LMS x AAI",
+    year: "2026",
+    title: "Lume E-Commerce",
     description:
-      "An all-in-one learning platform for admins, teachers, and students with course management, assignments, and quizzes.",
-    tags: ["Next.js", "Education Platform", "Full Stack"],
-    href: "https://cwd-lms.vercel.app/",
+      "A modern e-commerce platform featuring product discovery, category browsing, and a clean responsive shopping experience.",
+    tags: ["Online Store", "E-commerce", "PostgreSQL", "Frontend"],
+    href: "https://test-ecommercesy.vercel.app/",
   },
   {
     index: "03",
     year: "2024",
-    title: "SurfxBini",
+    title: "LMS x AAI",
     description:
-      "A CMS platform for user submissions with admin validation and content moderation system.",
-    tags: ["CMS", "Admin Panel", "Web Platform"],
-    href: "https://bini-con.vercel.app/",
+      "An all-in-one learning platform for admins, teachers, and students with course management, assignments, and quizzes.",
+    tags: ["Role-Based Access", "Education Platform", "Full Stack"],
+    href: "https://cwd-lms.vercel.app/",
   },
   {
     index: "04",
     year: "2024",
-    title: "Randomizer",
+    title: "SurfxBini",
     description:
-      "A spin-wheel web app for random selection used in giveaways, decisions, and interactive activities.",
-    tags: ["JavaScript", "UI Interaction", "Web App"],
-    href: "https://randomizer-cwd.vercel.app/",
+      "A CMS platform for user submissions with admin validation and content moderation system.",
+    tags: ["CMS", "Admin Panel", "Web Platform", "User Submissions", "Full Stack"],
+    href: "https://bini-con.vercel.app/",
   },
   {
     index: "05",
     year: "2024",
+    title: "Randomizer",
+    description:
+      "A spin-wheel web app for random selection used in giveaways, decisions, and interactive activities.",
+    tags: ["Animations", "Dynamic UI", "Web App", "Full Stack"],
+    href: "https://randomizer-cwd.vercel.app/",
+  },
+  {
+    index: "06",
+    year: "2024",
     title: "CloudCast",
     description:
       "A weather app providing real-time forecasts and location-based weather data via API integration.",
-    tags: ["API", "Weather App", "React"],
+    tags: ["API", "Weather App", "Music App", "Next.js", "Full Stack"],
     href: "https://cloudcast-sy.vercel.app/",
   },
 ];

@@ -61,7 +61,7 @@ const WORK = [
     description:
       "A modern e-commerce platform featuring product discovery, category browsing, and a clean responsive shopping experience.",
     tags: ["Online Store", "E-commerce", "PostgreSQL", "Frontend"],
-    href: "https://test-ecommercesy.vercel.app/",
+    href: "https://lume-ecommerce.vercel.app/",
   },
   {
     index: "03",

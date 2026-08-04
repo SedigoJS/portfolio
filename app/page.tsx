@@ -59,8 +59,8 @@ const WORK = [
     year: "2026",
     title: "Lume E-Commerce",
     description:
-      "A modern e-commerce platform featuring product discovery, category browsing, and a clean responsive shopping experience.",
-    tags: ["Online Store", "E-commerce", "PostgreSQL", "Frontend"],
+      "A Full-stack e-commerce platform with product discovery, category browsing, secure checkout, and a responsive shopping experience.",
+    tags: ["Online Store", "E-commerce", "Neon PostgreSQL", "Stripe"],
     href: "https://lume-ecommerce.vercel.app/",
   },
   {

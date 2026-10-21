@@ -22,12 +22,12 @@ import { ArrowUpRight, Mail, ArrowRight } from "lucide-react";
 
 const PROFILE = {
   name: "Joshua Sedigo",
-  role: "Web Developer | Data Entry Specialist | Legal Assistant",
+  role: "Fullstack Web Developer | React, Next.js, TypeScript, PostgreSQL",
   location: "Rizal, Philippines",
   lat: 14.6030,
   lon: 121.3080,
   tagline:
-    "I build responsive websites, manage data with precision, and provide dependable legal support—combining technical skills, accuracy, and organization to help businesses operate efficiently.",
+    "I build full-stack web applications, from database schemas and API routes to responsive interfaces. I also build automation tools that cut manual work in real operations.",
   bio: "I work across web development, data management, and legal administration, creating user-friendly websites, maintaining accurate records, and assisting with legal documentation and administrative tasks. My focus is on delivering reliable, detail-oriented solutions that improve productivity and support business success.",
   email: "sedigojs@gmail.com",
   social: [
@@ -41,9 +41,36 @@ const WORK = [
   {
     index: "01",
     year: "2026",
+    title: "Lume E-Commerce",
+    description:
+      "Full-stack e-commerce store with product discovery, cart management, and Stripe Checkout, backed by Prisma and PostgreSQL.",
+    tags: ["Online Store", "E-commerce", "Neon PostgreSQL", "Stripe"],
+    href: "https://lume-ecommerce.vercel.app/",
+  },
+  {
+    index: "02",
+    year: "2024",
+    title: "LMS x AAI",
+    description:
+      "Learning management system for courses, assignments, and quizzes, with REST APIs and role-based access for admins, teachers, and students.",
+    tags: ["Role-Based Access", "Education Platform", "Full Stack"],
+    href: "https://cwd-lms.vercel.app/",
+  },
+  {
+    index: "03",
+    year: "2024",
+    title: "SurfxBini",
+    description:
+      "Promo platform where users submit entries and staff validate them in an admin CMS, with AWS cloud storage for media and file uploads.",
+    tags: ["CMS", "Admin Panel", "User Submissions", "Full Stack"],
+    href: "https://bini-con.vercel.app/",
+  },
+  {
+    index: "04",
+    year: "2026",
     title: "ALAW Projects",
     description:
-      "Developed web apps and automation tools for document processing, legal workflows, PDF extraction, and Excel reporting to improve operational efficiency.",
+      "Web apps and automation tools for document processing, PDF renaming, and Excel reporting, deployed on Vercel and Cloudflare.",
     tags: ["Web Apps", "Automation", "PDF Tools", "Excel"],
     links: [
       { label: "ALAW Compile", href: "https://alawcompile.vercel.app/" },
@@ -53,33 +80,6 @@ const WORK = [
       { label: "ALAW Campaign", href: "https://alawcampaign.vercel.app/" },
       { label: "ALAW USDA", href: "https://alawusda.vercel.app/" },
     ],
-  },
-  {
-    index: "02",
-    year: "2026",
-    title: "Lume E-Commerce",
-    description:
-      "A Full-stack e-commerce platform with product discovery, category browsing, secure checkout, and a responsive shopping experience.",
-    tags: ["Online Store", "E-commerce", "Neon PostgreSQL", "Stripe"],
-    href: "https://lume-ecommerce.vercel.app/",
-  },
-  {
-    index: "03",
-    year: "2024",
-    title: "LMS x AAI",
-    description:
-      "An all-in-one learning platform for admins, teachers, and students with course management, assignments, and quizzes.",
-    tags: ["Role-Based Access", "Education Platform", "Full Stack"],
-    href: "https://cwd-lms.vercel.app/",
-  },
-  {
-    index: "04",
-    year: "2024",
-    title: "SurfxBini",
-    description:
-      "A CMS platform for user submissions with admin validation and content moderation system.",
-    tags: ["CMS", "Admin Panel", "User Submissions", "Full Stack"],
-    href: "https://bini-con.vercel.app/",
   },
   {
     index: "05",
@@ -103,28 +103,20 @@ const WORK = [
 
   const CAPABILITIES = [
     {
-      label: "Web Development",
-      detail: "Building responsive websites with Next.js, React, JavaScript, Tailwind CSS, and modern web technologies.",
+      label: "Full-Stack Development",
+      detail: "Building responsive interfaces with React, Next.js, and TypeScript, backed by REST APIs and PostgreSQL databases.",
     },
     {
-      label: "Frontend Development",
-      detail: "Creating clean, user-friendly interfaces with a focus on performance and usability.",
+      label: "Automation Tools",
+      detail: "Designing web tools and scripts that process Excel, Word, and PDF files, including OCR and document generation.",
     },
     {
-      label: "Data Management",
-      detail: "Accurate data entry, record management, spreadsheet organization, and database maintenance.",
+      label: "Data and Documentation",
+      detail: "Accurate record management, spreadsheet organization, and structured document handling.",
     },
     {
-      label: "Legal Assistance",
-      detail: "Preparing legal documents, organizing case files, conducting research, and providing administrative support.",
-    },
-    {
-      label: "Administrative Support",
-      detail: "Managing documents, scheduling, email correspondence, and office workflows efficiently.",
-    },
-    {
-      label: "Problem Solving",
-      detail: "Combining technical and administrative skills to streamline processes and deliver reliable solutions.",
+      label: "Operations Support",
+      detail: "Organizing case files, preparing documents, and managing office workflows with accuracy and deadline discipline.",
     },
   ];
 

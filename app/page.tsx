@@ -29,7 +29,7 @@ const PROFILE = {
   tagline:
     "I build responsive websites, manage data with precision, and provide dependable legal support—combining technical skills, accuracy, and organization to help businesses operate efficiently.",
   bio: "I work across web development, data management, and legal administration, creating user-friendly websites, maintaining accurate records, and assisting with legal documentation and administrative tasks. My focus is on delivering reliable, detail-oriented solutions that improve productivity and support business success.",
-  email: "sediogjs@gmail.com",
+  email: "sedigojs@gmail.com",
   social: [
     { label: "GitHub", href: "https://github.com/SedigoJS" },
     { label: "CV Resume", href: "/Joshua_Sedigo_Resume.pdf", download: true },

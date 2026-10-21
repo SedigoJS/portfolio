@@ -103,12 +103,20 @@ const WORK = [
 
   const CAPABILITIES = [
     {
-      label: "Full-Stack Development",
-      detail: "Building responsive interfaces with React, Next.js, and TypeScript, backed by REST APIs and PostgreSQL databases.",
+      label: "Frontend Development",
+      detail: "Building responsive, accessible interfaces with React, Next.js, TypeScript, and Tailwind CSS, with reusable components.",
+    },
+    {
+      label: "Backend Development",
+      detail: "Designing REST APIs and data models with Prisma and PostgreSQL, including authentication, role-based access, and payment integration with Stripe.",
+    },
+    {
+      label: "Deployment and Tooling",
+      detail: "Shipping projects through Git, GitHub, and CI/CD pipelines, with hosting on Vercel, Cloudflare, and AWS.",
     },
     {
       label: "Automation Tools",
-      detail: "Designing web tools and scripts that process Excel, Word, and PDF files, including OCR and document generation.",
+      detail: "Building web tools and Windows scripts that process Excel, Word, and PDF files, including OCR and document generation.",
     },
     {
       label: "Data and Documentation",
